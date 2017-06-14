@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.de_app_slicing"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:name="com.example.android.de_app_slicing.propeditor.PropEditorApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/as_back"
+        android:label="@string/app_name"
+        android:theme="@style/AppThemeLight" >
+        <activity
+            android:name="com.example.android.de_app_slicing.propeditor.activities.PropEditorActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateHidden" />
+
+        <provider
+            android:name="com.example.android.de_app_slicing.propeditor.provider.CachedFileProvider"
+            android:authorities="com.example.android.app_slicing.propeditor.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider" />
+        </provider>
+
+        <activity android:name="com.example.android.de_app_slicing.propeditor.activities.SendFeedbackActivity" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.activities.HelpActivity" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.android.de_app_slicing.propeditor.MainActivity" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.RootFailActivity" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.InfoActivity3" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.Infoactivity1" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.InfoActivity2" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.InfoActivity4" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.InfoActivity5" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.InfoActivity6" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.Infoactivity7" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.TweaksListActivity" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.AutoRotationOnLockScreen" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.dpiChange" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.PhoneRing" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.jpegEncoding" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.googleDNS" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.ManualEdit" />
+        <activity android:name="com.example.android.de_app_slicing.propeditor.AppCompatible" />
+    </application>
+
+</manifest>

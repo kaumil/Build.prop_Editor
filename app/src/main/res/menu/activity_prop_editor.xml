@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_drop_down"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_tweaks"
+                android:icon="@drawable/ic_menu_tweaks"
+                android:title="@string/menu_item_tweaks"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_reload"
+                android:icon="@drawable/ic_menu_reload"
+                android:title="@string/menu_item_reload"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_save"
+                android:icon="@drawable/ic_menu_save"
+                android:title="@string/menu_item_save"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_add"
+                android:icon="@drawable/ic_menu_add"
+                android:title="@string/menu_item_add"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_reboot"
+                android:icon="@drawable/ic_menu_reboot"
+                android:title="@string/menu_item_reboot"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_restore"
+                android:icon="@drawable/ic_menu_restore"
+                android:title="@string/menu_item_restore"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_manual_edit"
+                android:icon="@drawable/ic_menu_manual_edit"
+                android:title="@string/menu_item_manual_edit"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/item_help"
+                android:icon="@drawable/ic_menu_help"
+                android:title="@string/menu_item_help"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_feedback"
+                android:icon="@drawable/ic_menu_feedback"
+                android:title="@string/menu_item_feedback"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_back"
+                android:icon="@drawable/ic_menu_back"
+                app:showAsAction="never"
+                android:title="@string/menu_item_back"/>
+        </menu>
+    </item>
+
+</menu>

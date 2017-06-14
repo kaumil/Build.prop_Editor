@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Kaumil\\.android\\build-cache\\48993a113ba75ee65774c4a6a44df7e165e3a07c\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Kaumil\\.android\\build-cache\\48993a113ba75ee65774c4a6a44df7e165e3a07c\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Kaumil\\.android\\build-cache\\48993a113ba75ee65774c4a6a44df7e165e3a07c\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Kaumil\\.android\\build-cache\\48993a113ba75ee65774c4a6a44df7e165e3a07c\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

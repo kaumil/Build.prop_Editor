@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.de_app_slicing.propeditor.Infoactivity1">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#81D4FA"
+                android:padding="20dp"
+                android:text="STEP 5:The file will automatically saved,Now Reboot the phone."
+                android:textAlignment="gravity"
+                android:textColor="#0D47A1"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tview1"
+                android:background="#FFF176"
+                android:padding="20dp"
+                android:text="STEP 6: Clear data of playstore and click on force stop."
+                android:textColor="#F57F17"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:background="#A5D6A7"
+                android:padding="20dp"
+                android:text="STEP 7: Now open the playstore and you will find the app compatible."
+                android:textColor="#1B5E20"
+                android:textSize="25dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#E1BEE7"
+                android:onClick="finish"
+                android:text="Finish"
+                android:textColor="#4A148C" />
+            "/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+
+

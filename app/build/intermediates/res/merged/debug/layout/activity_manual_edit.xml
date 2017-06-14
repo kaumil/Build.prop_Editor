@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManualEdit">
+<ScrollView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:layout_constraintTop_creator="1"
+    tools:layout_constraintRight_creator="1"
+    tools:layout_constraintBottom_creator="1"
+    android:layout_marginStart="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_marginEnd="8dp"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginTop="8dp"
+    tools:layout_constraintLeft_creator="1"
+    android:layout_marginBottom="8dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="step 1:"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Every android device contains build.prop file located in system directory of their device.
+This file contains few strings which are bits of text that helps to identify the device you are using.
+Just by editing this file you can make your device to appear as another device thus buy spoofing the playstore in recognizing the device you are actually using."
+            android:textColor="#000000"
+            android:textSize="10pt" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Warning:
+Carefully follow this steps and edit only those parts of the build.prop file that are mentioned.Editing of any other part can cause serious problems to your device."
+            android:textColor="#000000"
+            android:textSize="10pt"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"
+            android:padding="3dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="step 2:"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:text="Download Build.prop editor."
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:text="https://play.google.com/store/apps/details?id=com.jrummy.apps.build.prop.editor"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="italic"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"
+            android:padding="3dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="step 3:"
+            android:textAllCaps="true"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:text="Before editing build.prop make sure to backup the file by clicking Create backup so that you can restore the original file."
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:text="Warning:It is advisable to backup the file before editing "
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"
+            android:padding="3dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="step 4:"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Tweak your phone by modifying the properties of the build.prop file.For this purpose you can use the tweaks list recommended from the developers."
+            android:textColor="#000000"
+            android:textSize="10pt" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"
+            android:padding="3dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="step 5:"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="The file will automatically saved,Now Reboot the phone."
+            android:textColor="#000000"
+            android:textSize="10pt" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"
+            android:padding="3dp" />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="step 6:"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Clear data of playstore and click on force stop."
+            android:textColor="#000000"
+            android:textSize="10pt" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"
+            android:padding="3dp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="step 7:"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Now open the playstore and you will find the app compatible."
+            android:textColor="#000000"
+            android:textSize="10pt" />
+
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

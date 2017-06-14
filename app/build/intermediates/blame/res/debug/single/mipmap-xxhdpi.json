@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\as.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\mipmap-xxhdpi\\as.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

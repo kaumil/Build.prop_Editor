@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.de_app_slicing.propeditor.RootFailActivity"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="575dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:padding="20px"
+            android:text="Your phone is not rooted.Click below for root related information:"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/btn_root"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Click here for information"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

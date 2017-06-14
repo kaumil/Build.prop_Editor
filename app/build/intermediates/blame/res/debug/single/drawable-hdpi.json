@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_restore.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_restore.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_reload.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_reload.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\fastscroll_thumb_pressed_holo.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\fastscroll_thumb_pressed_holo.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_manual_edit.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_manual_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_reboot.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_reboot.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_feedback.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_feedback.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_add.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_add.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_tweaks.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_tweaks.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\fastscroll_thumb_default_holo.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\fastscroll_thumb_default_holo.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_save.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_save.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_help.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_help.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_drop_down.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_drop_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_accept.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_action_accept.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_back.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_close_clear_cancel.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_close_clear_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_discard.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_action_discard.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_add.png",
+        "source": "C:\\Users\\Kaumil\\Desktop\\DE_App_Slicing\\app\\src\\main\\res\\drawable-hdpi\\ic_action_add.png"
+    }
+]

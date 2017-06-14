@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:android1="http://schemas.android.com/apk/res/android">
+    <item
+        android1:id="@+id/add_menu"
+        android1:title="@string/add"
+        android1:icon="@drawable/ic_action_add"
+        android:showAsAction="ifRoom|withText"
+        />
+    <item
+        android1:id="@+id/backup_menu"
+        android1:title="@string/backup"
+        android:showAsAction="never"
+        />
+    <item
+        android1:id="@+id/restore_menu"
+        android1:title="@string/restore"
+        android:showAsAction="never"
+        />
+</menu>
