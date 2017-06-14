@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PhoneRing">
-    <LinearLayout
+    <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
         tools:layout_constraintTop_creator="1"
@@ -21,39 +21,43 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:orientation="vertical">
-        <TextView
+        android:layout_marginRight="8dp">
+        <LinearLayout
+           android:layout_height="match_parent"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAllCaps="true"
-            android:textStyle="bold"
-            android:textColor="#000000"
-            android:textSize="20sp"
-            android:text="Tweak page : minimal phone ring delay"/>
-        <TextView
-            android:layout_marginTop="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="10pt"
-            android:text="This build.prop edit will make your phone ring as soon as you get a call instead of waiting to verify the connection. For most devices, these lines won't already exist, so you'll have to add them both to the bottom of your build.prop file:"
-            android:textColor="#000000"/>
-        <TextView
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="10pt"
-            android:textStyle="italic"
-            android:text="ro.telephony.call_ring.delay=0"
-            android:textColor="#000000"/>
-        <TextView
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="10pt"
-            android:textStyle="italic"
-            android:text="ring.delay=0"
-            android:textColor="#000000"/>
-    </LinearLayout>
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Tweak page : minimal phone ring delay"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10pt"
+                android:text="This build.prop edit will make your phone ring as soon as you get a call instead of waiting to verify the connection. For most devices, these lines won't already exist, so you'll have to add them both to the bottom of your build.prop file:"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10pt"
+                android:textStyle="italic"
+                android:text="ro.telephony.call_ring.delay=0"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10pt"
+                android:textStyle="italic"
+                android:text="ring.delay=0"
+                android:textColor="#000000"/>
+        </LinearLayout>
 
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

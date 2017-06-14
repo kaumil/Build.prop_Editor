@@ -5,54 +5,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".googleDNS">
-<LinearLayout
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    tools:layout_constraintTop_creator="1"
-    tools:layout_constraintRight_creator="1"
-    tools:layout_constraintBottom_creator="1"
-    android:layout_marginStart="8dp"
-    app:layout_constraintBottom_toBottomOf="parent"
-    android:layout_marginEnd="8dp"
-    app:layout_constraintRight_toRightOf="parent"
-    android:layout_marginTop="8dp"
-    tools:layout_constraintLeft_creator="1"
-    android:layout_marginBottom="8dp"
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    android:layout_marginLeft="8dp"
-    android:layout_marginRight="8dp"
-    android:orientation="vertical">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAllCaps="true"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:text="Tweak page : Google DNS"/>
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="10pt"
-        android:text="Most Android devices will use their carrier's DNS service by default, and these can sometimes have issues resolving domain name addresses. Google has a set of free DNS servers that anyone can use, and you know they've got all of the bandwidth in the world, so they rarely fail. To force your device to use Google's more reliable DNS servers, add the following lines to the bottom of your build.prop file:"
-        android:textColor="#000000"/>
-    <TextView
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="10pt"
-        android:textStyle="italic"
-        android:text="net.dns1=8.8.8.8"
-        android:textColor="#000000"/>
-    <TextView
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="10pt"
-        android:textStyle="italic"
-        android:text="net.dns2=8.8.4.4"
-        android:textColor="#000000"/>
-</LinearLayout>
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Tweak page : Google DNS"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10pt"
+                android:text="Most Android devices will use their carrier's DNS service by default, and these can sometimes have issues resolving domain name addresses. Google has a set of free DNS servers that anyone can use, and you know they've got all of the bandwidth in the world, so they rarely fail. To force your device to use Google's more reliable DNS servers, add the following lines to the bottom of your build.prop file:"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10pt"
+                android:textStyle="italic"
+                android:text="net.dns1=8.8.8.8"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10pt"
+                android:textStyle="italic"
+                android:text="net.dns2=8.8.4.4"
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AppCompatible">
-    <LinearLayout
+    <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
         tools:layout_constraintTop_creator="1"
@@ -21,28 +21,32 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:orientation="vertical">
-        <TextView
+        android:layout_marginRight="8dp">
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="This is one of the most popular build.prop edits of all time, since it allows you to install incompatible apps to your phone.For installing incompatible apps,tweak the following properties on your phone."
-            android:textColor="#000000"
-            android:textSize="10pt" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textStyle="italic"
-            android:text="ro.product.model=Pixel
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="This is one of the most popular build.prop edits of all time, since it allows you to install incompatible apps to your phone.For installing incompatible apps,tweak the following properties on your phone."
+                android:textColor="#000000"
+                android:textSize="10pt" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                android:text="ro.product.model=Pixel
 ro.product.manufacturer=Google
 ro.product.brand=google
 ro.product.board=sailfish
 ro.build.version.release=7.1.2
 ro.product.name=sailfish"
-            android:textColor="#000000"
-            android:textSize="10pt" />
+                android:textColor="#000000"
+                android:textSize="10pt" />
 
-    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
